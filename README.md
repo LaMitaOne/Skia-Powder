@@ -19,9 +19,8 @@ A falling sand simulation (Powder Game) built entirely with Skia4Delphi. A class
 🕹️ Controls
 
      Draw/Interact: Left-Click & Drag
-     Select Material: Use the UI Buttons on the left side of the screen
-     Clear Screen: (Resize the window or close/reopen the app for now!)
-
+     Select Material: Use the UI Buttons on the left side of the screen      
+      
 🛠️ Technical Details
 
      Renderer: Pure Skia Canvas (No Game Engine, no FMX shapes). Every pixel is drawn directly and highly optimized using TSkPaint and DrawRect.
