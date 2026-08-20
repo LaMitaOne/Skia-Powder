@@ -8,8 +8,8 @@ A falling sand simulation (Powder Game) built entirely with Skia4Delphi. A class
     
 <img width="915" height="754" alt="Unbenannt" src="https://github.com/user-attachments/assets/13991a7a-4fc1-4952-bb5e-8363f29ae22d" />
     
-🎮 Gameplay Features
-
+🎮 Gameplay Features    
+    
      Dynamic Grid Resolution: The simulation grid automatically resizes to fit any window dimensions on the fly, without destroying existing elements.
      Density-Based Physics: Materials interact based on weight. Sand sinks in water, oil floats on top of water, and gases rise to the ceiling.
      Cellular Automata Reactions: Complex chain reactions. Fire spreads to flammable materials, water extinguishes fire but turns into steam, lava melts sand/salt and slowly ignites wood, acid aggressively dissolves matter, and plants grow when touching water.
@@ -29,9 +29,9 @@ A falling sand simulation (Powder Game) built entirely with Skia4Delphi. A class
      Threading: Physics and reaction logic run on a background thread for consistent 60+ FPS, synchronized safely with the main rendering thread via TCriticalSection.
      Memory Management: Utilizes Delphi's dynamic 2D arrays (array of array of TCell) and SetLength to allow seamless grid resizing while preserving simulation state.
      State-Driven Architecture: Materials are defined by TMaterialState (Solid, Powder, Liquid, Gas) and Density, drastically reducing the code required for movement and collision logic.
-
-🚀 Getting Started
-
+    
+🚀 Getting Started    
+    
     Open the project in RAD Studio (Delphi).
     Ensure you have the Skia4Delphi library installed.
     Run and play!
@@ -47,16 +47,17 @@ v 0.1: Initial Release
      Added UI toolbar with auto-generated material buttons.
      Added airbrush scattering for dynamic materials and solid brushing for structures.
      Fixed gas physics by separating the update loop (Top-Down pass) to prevent stacking artifacts.
-
-License
-
+     
+License    
+    
 MIT License - Do whatever you want with it. Credits appreciated but not required. 
 
-Happy sandboxing! 🏖️🔥
-🎮 More game repos:
-
-Skia4Delphi Games (each one file, no ext engine):
-
+Happy sandboxing! 🏖️🔥     
+     
+🎮 More game repos:    
+     
+Skia4Delphi Games (each one file, no ext engine):     
+     
      2D JumpnRun Platformer: https://github.com/LaMitaOne/Skia_PlatformerGame
      2D MegaCatling (Megaman platformer/shooter): https://github.com/LaMitaOne/Skia-MegaCatling
      2D Lemmings/Worms/Portal/Touch hybrid: https://github.com/LaMitaOne/SkiaLemmings
