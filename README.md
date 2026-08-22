@@ -6,8 +6,10 @@ A falling sand simulation (Powder Game) built entirely with Skia4Delphi. A class
      
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LaMitaOne/Skia-Powder)    
     
-<img width="915" height="754" alt="Unbenannt" src="https://github.com/user-attachments/assets/13991a7a-4fc1-4952-bb5e-8363f29ae22d" />
-    
+<img width="915" height="754" alt="Unbenannt" src="https://github.com/user-attachments/assets/13991a7a-4fc1-4952-bb5e-8363f29ae22d" />    
+
+Sample Video: https://youtu.be/ZYbLVm2Xeu0     
+         
 🎮 Gameplay Features    
     
      Dynamic Grid Resolution: The simulation grid automatically resizes to fit any window dimensions on the fly, without destroying existing elements.
